@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<!--
+1、仅仅只需要关注数据、业务逻辑和事件，dom直接的操作隐藏起来，不用再重复去做这个事情。
+2、大大增加团队效率，团队协作能力
+3、模块化，降低耦合度
+4、数据的双向绑定,视图和模型的数据是绑定在一起的，变更1个，那么所有都变更
+-->
+
+<!--视图-->
+<div id="app">
+<h1>{{jsonMsg}}</h1>
+<p>{{jsonContent}}</p>
+<h1> 这是H1内容： {{ isA ? a : b}}</h1>
+
+<!--将变量绑定到属性上-->
+<a v-bind:href="httpUrl">链接地址</a>
+<a :href="httpUrl">链接地址</a>
+
+<div>
+{{htmlElement}}
+</div>
+
+<div v-html='htmlElement'></div>
+
+<h1>{{msg}}</h1>
+<h1 v-once>{{msg}}</h1>
+<input type="text" v-model='msg' name="" id="" value="" />
+
+
+<button v-on:click='changeUrl'>更改为淘宝地址</button>
+<!--
+v-on:可以缩写成@
+-->
+<button @click='changeMsg'>更改msg</button>
+</div>
+<!--
+vue模板：
+1、变量放在{{}}里面，里面可以正常运行JS表达式
+2、变量如果要放在HTML的属性里面，那么就需要使用v-bind,缩写即前面加冒号
+3、默认是将HTML以字符串的形式输出到视图，如果想要以HTML的形式输出到视图，那么需要使用v-html这个指令
+4、v-once只渲染1次
+5、绑定事件的书写方式：v-on,
+
+
+vue应用生命周期（即执行过程）
+new Vue(配置变量)
+---》初始化
+---》beforecreate
+---》created
+--》beforeMount(渲染之前、挂载之前)
+---》mounted
+--》beforeupdate
+---》updated
+---》beforeDestory
+---》destoryed
+
+
+条件渲染：
+
+
+
+-->
+<script type="text/javascript">
+var obj = {
+el:'#app',
+data:{
+msg:'helloworld',
+num:'123456778',
+isA:false,
+a:8,
+b:4,
+httpUrl:'http://www.baidu.com',
+htmlElement:'<button>这是一个按钮</button>',
+jsonMsg:'',
+jsonContent:''
+},
+methods:{
+changeMsg:function(){
+this.msg = '今天天气不错'
+},
+changeUrl:function(){
+this.httpUrl = 'http://www.taobao.com'
+}
+},
+beforeCreate:function(){
+console.log('创造之前执行的函数')
+},
+created:function(){
+console.log('创造之后')
+},
+beforeMount:function(){
+console.log('挂载之前')
+var that = this
+$.ajax({
+url:'abc.json',
+success:function(res){
+console.log(res)
+that.jsonMsg = res.msg
+that.jsonContent = res.content
+}
+})
+},
+mounted:function(){
+console.log('挂载之后')
+},
+beforeUpdate:function(){
+console.log('更新之前')
+},
+updated:function(){
+console.log('更新之后')
+}
+}
+var app = new Vue(obj)
+console.log(app)
+
+
+
+</script>
+</body>
+</html>
