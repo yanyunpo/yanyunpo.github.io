@@ -1,7 +1,7 @@
 ---
-title: Hello World
-top_img: /pic/21.jpg
-cover: /pic/21.jpg
+title: 00 Hello World
+top_img: /pic/20.jpg
+cover: /pic/20.jpg
 abbrlink: 16107
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).

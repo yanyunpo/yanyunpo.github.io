@@ -1,5 +1,5 @@
 ---
-title: hexo常见问题集合
+title: 01 hexo常见问题集合
 abbrlink: 62124
 date: 2020-08-09 16:41:30
 tags:
@@ -9,8 +9,8 @@ layout: pages
 updated: 2020-08-09 16:41:30
 categories: hexo
 keywords:
-top_img: /pic/23.jpg
-cover: /pic/23.jpg
+top_img: /pic/21.jpg
+cover: /pic/21.jpg
 ---
 ##参考
 [hexo故障说明文档]: https://hexo.io/docs/troubleshooting.html

@@ -1,7 +1,9 @@
 ---
-title: hexo使用手册
+title: 03 hexo使用手册
 abbrlink: 50194
 date: 2020-08-09 17:09:20
+top_img: /pic/23.jpg
+cover: /pic/23.jpg
 ---
 hexo简介
 hexo是一个静态的博客网站

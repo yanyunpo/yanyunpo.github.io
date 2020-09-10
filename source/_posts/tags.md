@@ -1,13 +1,13 @@
 ---
 layout: pages
-title: 测试样例文章
+title: 04 测试样例文章
 date: 2020-08-07 13:15:41
 tags:
 - hexo
 - butterfly
 - _config.yml
-top_img: /pic/22.jpg
-cover: /pic/22.jpg
+top_img: /pic/24.jpg
+cover: /pic/24.jpg
 ---
 本文内容仅为测试所用，相关知识点请不要进行参考。
 主要记录butterfly.yml和_config.yml的修改内容
