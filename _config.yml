@@ -111,9 +111,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yanyunpo/yanyunpo.github.io.git
+  repo:
+        github: https://github.com/yanyunpo/yanyunpo.github.io.git
+        coding: https://e.coding.net/taiyang1/yanyunpo/yanyunpo.git
   branch: master
-
 # hexo-admin authentification
 admin:
   username: yanyunpo

@@ -1,5 +1,5 @@
 ---
-title: 03 hexo使用手册
+title: 03 (0)hexo+github+butterfl搭建博客 
 abbrlink: 50194
 date: 2020-08-09 17:09:20
 top_img: /pic/23.jpg
@@ -50,8 +50,10 @@ Linux：sudo apt-get install nodejs
 sudo apt-get install npm
 
 检查node安装成功与否
+```bash
 node -v
 npm -v
+```
 
 ### 安装Hexo
 
@@ -60,7 +62,7 @@ npm -v
 - cd  blog
 
 - 安装
-
+```
   npm install -g hexo-cli       #安装脚手架
   hexo -v                #检查版本
   hexo init myblog   #初始化hexo
@@ -68,6 +70,7 @@ npm -v
   npm install            #新建
   hexo g         #   
   hexo server  #  本地运行
+```
 
 ### Github创建个人仓库
 
@@ -93,13 +96,14 @@ npm -v
   GitHub的setting中，ssh keys的设置选项，点击New SSH key，复制id_rsa.pub的信息到里面。
 
   SSH简要：密钥，id_rsa：本机的私人密钥     id_rsa.pub：公共密钥，将公钥放到GitHub上，当连接GitHub账户时，根据公钥去匹配本机私钥，匹配上则说明正确，然后即可通过git上传文件到GitHub。
-
+```
   git config --global user.name "yourname"
   git config --global user.email "youremail"
   git config user.name
   git config user.email
   ssh-keygen -t rsa -C "youremail"
   ssh -T git@github.com
+```
 
 ### 部署到GitHub和coding
 
@@ -107,11 +111,13 @@ npm -v
 
   打开站点配置文件_config.yml
   释义：类型，仓库链接，分支
-  deploy:
-  	 type: git
-  	 repo:https://github.com/YourgithubName/
-  	YourgithubName.github.io.git
-   	branch: master
+  ```yaml
+    deploy:
+    	 type: git
+    	 repo:https://github.com/YourgithubName/
+    	YourgithubName.github.io.git
+     	branch: master
+  ```
 
   部署
   释义：
@@ -119,13 +125,14 @@ npm -v
   清除
   生成静态文章 
   部署文章
-  npm install hexo-deployer-git --save
-  hexo clean
-  hexo generate
-  hexo deploy
-  缩写命令
-  hexo c && g && d
-
+  ```
+   npm install hexo-deployer-git --save
+   hexo clean
+   hexo generate
+   hexo deploy
+   缩写命令
+   hexo c && g && d 
+  ```
 - coding
 
 ### 设置个人域名
