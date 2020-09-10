@@ -112,8 +112,8 @@ theme: butterfly
 deploy:
   type: git
   repo:
-        github: https://github.com/yanyunpo/yanyunpo.github.io.git
-        coding: https://e.coding.net/taiyang1/yanyunpo/yanyunpo.git
+        github: git@github.com:yanyunpo/yanyunpo.github.io.git
+        coding: git@e.coding.net:taiyang1/yanyunpo/yanyunpo.git
   branch: master
 # hexo-admin authentification
 admin:
