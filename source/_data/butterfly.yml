@@ -229,7 +229,7 @@ anchor: true
 noticeOutdate:
   enable: true
   style: flat # style: simple/flat
-  limit_day: 365  # When will it be shown
+  limit_day: 20  # When will it be shown
   position: top # position: top/bottom
   message_prev: 本文写在
   message_next: 天之前, 文章内容可能已经过期.
@@ -656,6 +656,9 @@ busuanzi:
 runtimeshow:
   enable: true
   publish_date: 8/8/2020 00:00:00
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
