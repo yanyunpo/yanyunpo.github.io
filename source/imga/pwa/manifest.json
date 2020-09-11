@@ -1,0 +1,47 @@
+{
+  "name": "string",
+  "short_name": "Yanyunpo",
+  "theme_color": "#49b1f5",
+  "background_color": "#49b1f5",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "imga/pwa/0.png",
+      "sizes": "36x36",
+      "type": "imga/png"
+    },
+    {
+      "src": "imga/pwa/01.png",
+      "sizes": "48x48",
+      "type": "imga/png"
+    },
+    {
+      "src": "imga/pwa/02.png",
+      "sizes": "72x72",
+      "type": "imga/png"
+    },
+    {
+      "src": "imga/pwa/03.png",
+      "sizes": "96x96",
+      "type": "imga/png"
+    },
+    {
+      "src": "imga/pwa/04.png",
+      "sizes": "144x144",
+      "type": "imga/png"
+    },
+    {
+      "src": "imga/pwa/05.png",
+      "sizes": "192x192",
+      "type": "imga/png"
+    },
+    {
+      "src": "imga/pwa/512.png",
+      "sizes": "512x512",
+      "type": "imga/png"
+    }
+  ],
+  "splash_pages": null
+}

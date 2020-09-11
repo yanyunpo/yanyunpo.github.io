@@ -91,18 +91,3 @@ GitHub上下载喜欢的主题，放置到theme的文件夹下，_config.xml中�
 
 操作：
 1.GitHub新建分支
-
-### coding page 部署实现国内外分流
-
-## 发布文章
-
-### 写文章
-
-创建一个文章 
-```
-source/_post中打开markdown文件，编辑文章
-hexo new newpapername
-hexo clean
-hexo g
-hexo d
-```
