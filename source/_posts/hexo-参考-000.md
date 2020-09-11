@@ -1,7 +1,7 @@
 ---
 title: hexo 参考 000
-top_img: /pic/22.jpg
-cover: /pic/22.jpg
+top_img: /pic/0.jpg
+cover: /pic/0.jpg
 tags: hexo
 abbrlink: 25858
 date: 2020-09-11 13:46:40
@@ -21,5 +21,7 @@ date: 2020-09-11 13:46:40
 [Butterfly-蝴蝶-主题优化、美化-Lete乐特](https://blog.csdn.net/Lott0419/article/details/106688492)
 
 # **主题**
+## hexo
+[hexo官方指导博客](https://hexo.io/zh-cn/docs/)
 ## butterfly
-[官方指导博客](https://demo.jerryc.me/)
+[butterfly官方指导博客](https://demo.jerryc.me/)
