@@ -774,8 +774,8 @@ pwa:
   manifest: /imga/pwa/manifest.json
   theme_color: "#fff"
   apple_touch_icon: /imga/pwa/moon.png
-  favicon_32_32: /imga/pwa/0.png
-  favicon_16_16: /imga/pwa/01.png
+#  favicon_32_32: /imga/pwa/0.png
+#  favicon_16_16: /imga/pwa/01.png
 #  mask_icon: /image/pwa/safari-pinned-tab.svg
 
 # Disable Baidu transformation on mobile devices (禁止百度轉碼)
