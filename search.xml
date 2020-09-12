@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>hugo-搭建博客总结1-004</title>
+      <link href="posts/16615.html"/>
+      <url>posts/16615.html</url>
+      
+        <content type="html"><![CDATA[<p>今日感悟：世上本没有bug，脑残的人多了就有了bug。</p><p>#脑残的一些bug</p><p>##hugo main引入scss/sass文件报错<br>baseURL = “<a href="http://localhost:1313&quot;写成了fv.github.io的url，修改为本地地址即可。">http://localhost:1313&quot;写成了fv.github.io的url，修改为本地地址即可。</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo 搭建博客常用命令 003</title>
       <link href="posts/5211.html"/>
       <url>posts/5211.html</url>
