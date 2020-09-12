@@ -5,6 +5,7 @@ cover: /pic/0.jpg
 tags: hexo
 abbrlink: 25858
 date: 2020-09-11 13:46:40
+updated: 
 ---
 基于hexo+GitHub+butterfly搭建了自己的博客，之前仅仅只是更改了一些图片，没有写博客，本篇内容主要是参考，很多大佬已经写好的文章就不多赘述，在此做一个总结。
 
